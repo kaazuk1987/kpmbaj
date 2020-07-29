@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #fed136;
+  --primary: #4dff4d;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #fed136;
+  color: #009900;
   text-decoration: none;
   background-color: transparent;
 }
@@ -505,8 +505,7 @@ code {
   font-size: 87.5%;
   color: #e83e8c;
   word-wrap: break-word;
-}
-a > code {
+}a > code {
   color: inherit;
 }
 
@@ -2471,13 +2470,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #4dff4d;
+  border-color: #4dff4d;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #fec810;
-  border-color: #fec503;
+  background-color: #009900;
+  border-color: #009900;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -9797,7 +9796,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #4dff4d !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10077,7 +10076,7 @@ img::-moz-selection {
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #fed136;
+  background-color: #009900;
   border: 0;
 }
 #mainNav .navbar-brand {
@@ -10194,7 +10193,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(0, 99, 0, 0.9);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -10496,6 +10495,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #ced4da;
+}
+#mail{
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 13px;
+  color:white;
 }
 
 .footer {
